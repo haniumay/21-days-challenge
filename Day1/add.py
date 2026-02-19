@@ -8,4 +8,4 @@ print(sum)
 #-----------problem3------------------------------
 r=int(input("enter the radius of the circle:"))
 area=3.14*r**2
-print(area)10
+print(area)
