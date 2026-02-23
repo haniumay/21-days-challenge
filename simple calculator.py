@@ -1,14 +1,9 @@
 a=int(input())
 b=int(input())
-sum=a+b
-diff=a-b
-divi=a/b
-product=a*b
-print(sum)
-print(diff)
-print(divi)
-print(product)
-
+print("sum of number is:",a+b)
+print("difference is:",a-b)
+print("product is:",a*b)
+print("division is:",a/b)
 
 #---------------------even or odd----------------#
 a=int(input())
