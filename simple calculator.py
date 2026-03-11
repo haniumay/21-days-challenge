@@ -7,7 +7,7 @@ print("division is:",a/b)
 
 #---------------------even or odd----------------#
 a=int(input())
-if(a%2==0):
-    print("even")
+if(a%2!=0):
+    print("odd")
 else:
-    print("odd")    
+    print("even")    

@@ -1,0 +1,28 @@
+n=int(input("Enter a number:"))
+rev=0
+original=n
+while n>0:
+    rem=n%10
+    rev=rev*10+rem
+    n=n//10
+if rev==original:
+    print("palindrome")
+else:
+    print("Not palindrome")
+        
+ #-------------------armstrong number-----------------#
+n = int(input("Enter a number: "))
+
+original = n
+count = len(str(n))
+rev = 0
+
+while n > 0:
+    rem = n % 10
+    rev = rev + rem ** count
+    n = n // 10
+
+if rev == original:
+    print("Armstrong")
+else:
+    print("Not Armstrong")

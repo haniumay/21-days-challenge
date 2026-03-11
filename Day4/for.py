@@ -12,7 +12,7 @@ for i in range(1,a+1):
    sum=sum+i
    print("the sum of number is",sum)
 #----------------rev----------------#
-a=int(input("Enter a number:"))
+a=int(input("enter a number"))
 rev=0
 while a>0:
     rem=a%10

@@ -11,3 +11,8 @@ print("after swapping:",a,b)
 celcius=int(input("enter the celcius:"))
 F=(celcius*9/5)+32
 print(F)
+
+#farenhiet#
+Farenhiet=int(input("enter the value"))
+celcius=Farenhiet-32*5/9
+print(celcius)
