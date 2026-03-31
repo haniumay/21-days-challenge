@@ -1,0 +1,11 @@
+total msg=int(input("Enter total number of messages:"))
+if(total msg<=100):
+    status="Normal"
+    active=total_msg
+    compressed=0
+else:
+    status="Optimized"
+    active=100
+    compressed=total_msg-100
+    print(f"status:{status},Active:{active},Compressed:{compressed}")   
+
