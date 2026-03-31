@@ -1,0 +1,17 @@
+logs = ["INFO", "ERROR", "ERROR", "INFO", "ERROR", "ERROR", "ERROR", "INFO"]
+
+total = 0
+max_streak = 0
+streak = 0
+
+for i in logs:
+    if i == "ERROR":
+        total=total+1
+        streak=streak+1
+        if streak > max_streak:
+            max_streak = streak
+    else:
+        streak = 0
+
+print("Total Errors:", total)
+print("Longest Streak:", max_streak)

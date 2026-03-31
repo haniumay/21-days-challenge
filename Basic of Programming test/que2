@@ -1,5 +1,5 @@
-total msg=int(input("Enter total number of messages:"))
-if(total msg<=100):
+total_msg=int(input("Enter total number of messages:"))
+if(total_msg<=100):
     status="Normal"
     active=total_msg
     compressed=0
