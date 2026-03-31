@@ -1,0 +1,20 @@
+amount=int(input("Enter the amount:"))
+location=input("Enter the location(home/new):")
+time=input("Time(HH:MM):")
+failed=int(input("Failed attempt:"))
+risk=0
+if failed>=3:
+    print("Risk level: locked")
+else:
+    if amount>50000:
+        risk=risk+1
+    hour=int(time.split(":")[0])
+    if hour<=5:
+        risk=risk+1
+    if location =="new":
+        risk=risk+1
+        if risk>2:
+            print("Risk level: High")
+        else:
+            print("Risk level: low")    
+                
