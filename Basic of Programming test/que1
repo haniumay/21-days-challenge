@@ -1,0 +1,21 @@
+credits_score=int(input("credits_score:"))
+Income=int(input("Income:"))
+emi=int(input("emi:"))
+Employment=input("Employment:")
+status="rejected"
+rate="N/A"
+
+if(credits_score>=750 and Income>=25000 and emi<=Income/2 and Employment=="Salaried" or Employment=="self employed"):
+    status="approved"
+if(status=="approved"):
+    if(credits_score>=800):
+        rate="7%"
+    else:
+        rate="8%"    
+    print("Interest rate:8%")    
+    
+elif(600<=credits_score<=749):
+    print("review")    
+    
+else:
+    print("rejected")    
